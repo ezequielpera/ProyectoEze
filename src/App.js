@@ -1,7 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 
-import Navbar from './components/NavBar';
+import NavBar from './components/NavBar/navbar.jsx';
+import Titulo from './components/titulo';
+import ItemListContainer from './components/container/itemlistcontainer.jsx';
 
 const App = () => {
 
@@ -9,25 +10,12 @@ const App = () => {
   return (
     <div className="App">
       <div className="Container">
-        <div className="TituloUno"><h1>HERMES</h1></div>
-        <div className="TituloDos"><h2>VENTA DE LIBROS</h2></div>
-      </div>
-      <Navbar/>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Bienvenidos!
-        </p>
-        <ButtonComponent/>
         
-      </header>
+      </div>
+      <Titulo/>
+      <NavBar/>
+      <ItemListContainer greeting="Mensaje a reemplazar"/>
     </div>
   );
-}
-
-const ButtonComponent = () => {
-  return <button>Entrar</button>
-}
-  
-
+  }
 export default App;
