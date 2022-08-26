@@ -1,5 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
+import CartWidget from './cartwidget';
 
 function NavBar() {
     return (
@@ -10,6 +11,7 @@ function NavBar() {
                 <Navbar.Brand href="#home">Infantil</Navbar.Brand>
                 <Navbar.Brand href="#home">Ficción</Navbar.Brand>
                 <Navbar.Brand href="#home">Esoterismo</Navbar.Brand>
+                <CartWidget/>
                 <Navbar.Toggle />
 
             </Container>
