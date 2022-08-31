@@ -24,7 +24,7 @@ const ItemCount = ({ stock, initial, onAdd }) => {
             </div>
             <div>
                 <div className="d-flex justify-content-center">
-                    <button onClick={onAdd(count)}>Agregar al Carrito</button>
+                    <button onClick={()=> {onAdd(count)}}>Agregar al Carrito</button>
                 </div>
             </div>
         </div>
