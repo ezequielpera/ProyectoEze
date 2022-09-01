@@ -1,15 +1,15 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 
 const ItemCount = ({ stock, initial, onAdd }) => {
     const [count, setCount] = useState(initial)
 
-    function Sumar () {
+    function Sumar() {
         if (count < stock) {
             setCount(count + 1);
         }
     }
 
-    function Restar () {
+    function Restar() {
         if (count > 1) {
             setCount(count - 1);
         }
@@ -24,7 +24,7 @@ const ItemCount = ({ stock, initial, onAdd }) => {
             </div>
             <div>
                 <div className="d-flex justify-content-center">
-                    <button onClick={()=> {onAdd(count)}}>Agregar al Carrito</button>
+                    <button onClick={() => { onAdd(count) }}>Agregar al Carrito</button>
                 </div>
             </div>
         </div>
