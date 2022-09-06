@@ -3,7 +3,7 @@
         "id": "0",
         "title": "Textos Hermeticos",
         "price": "2400",
-        "pictureUrl": "./carrito/products/imgProducts/textos-hermeticos.jpg"
+        "pictureUrl": "d:/eze-app/src/components/carrito/products/imgProducts/textos-hermeticos.jpg"
     },
 
 
@@ -11,35 +11,35 @@
         "id": "1",
         "title": "El Templo en el Hombre",
         "price": "3000",
-        "pictureUrl": "./carrito/products/imgProducts/templo-en-el-hombre.jpg"
+        "pictureUrl": "./products/imgProducts/templo-en-el-hombre.jpg"
     },
 
     {
         "id": "2",
         "title": "El Señor de los Anillos",
         "price": "3200",
-        "pictureUrl": "./carrito/products/imgProducts/señor-de-los-anillos.jpg"
+        "pictureUrl": "d:/eze-app/src/components/carrito/products/imgProducts/señor-de-los-anillos.jpg"
     },
 
     {
         "id": "3",
         "title": "El Kybalion",
         "price": "2350",
-        "pictureUrl": "./carrito/products/imgProducts/kybalion.jpg"
+        "pictureUrl": "d:/eze-app/src/components/carrito/products/imgProducts/kybalion.jpg"
     },
 
     {
         "id": "4",
         "title": "La Rama Dorada",
         "price": "2500",
-        "pictureUrl": "./carrito/products/imgProducts/rama-dorada.jpg"
+        "pictureUrl": "d:/eze-app/src/components/carrito/products/imgProducts/rama-dorada.jpg"
     },
 
     {
         "id": "5",
         "title": "Los Vencejos",
         "price": "2100",
-        "pictureUrl": "./carrito/products/imgProducts/los-vencejos.jpg"
+        "pictureUrl": "d:/eze-app/src/components/carrito/products/imgProducts/los-vencejos.jpg"
     },
 
 
@@ -47,27 +47,27 @@
         "id": "6",
         "title": "El Grial y la Serpiente",
         "price": "3000",
-        "pictureUrl": "./carrito/products/imgProducts/grial-y-la-serpiente.jpg"
+        "pictureUrl": "d:/eze-app/src/components/carrito/products/imgProducts/grial-y-la-serpiente.jpg"
     },
 
     {
         "id": "7",
         "title": "Esclava de la Libertad",
         "price": "2700",
-        "pictureUrl": "./carrito/products/imgProducts/esclava-libertad.jpg"
+        "pictureUrl": "d:/eze-app/src/components/carrito/products/imgProducts/esclava-libertad.jpg"
     },
 
     {
         "id": "8",
         "title": "El Italiano",
         "price": "2700",
-        "pictureUrl": "./carrito/products/imgProducts/el-italiano"
+        "pictureUrl": "d:/eze-app/src/components/carrito/products/imgProducts/el-italiano"
     },
 
     {
         "id": "9",
         "title": "El Caso Alaska Sanders",
         "price": "2500",
-        "pictureUrl": "./carrito/products/imgProducts/caso-alaska-sanders.jpg"
+        "pictureUrl": "d:/eze-app/src/components/carrito/products/imgProducts/caso-alaska-sanders.jpg"
     }
 ]

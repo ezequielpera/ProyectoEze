@@ -7,7 +7,7 @@ const Item = () => {
 
     const buscarProductos = async () => {
         try {
-            const response = await fetch('./products/elements.json');
+            const response = await fetch('elements.json');
             const data = await response.json();
             setProductos(data);
         }
@@ -20,18 +20,19 @@ const Item = () => {
         buscarProductos();
     }, [])
 
-
-productos.map(producto => {
     return (
-        <div key={producto.id}>
-            <img src={producto.pictureUrl} alt={`Imagen de ${producto.title}`}/>
-            <h4>{producto.title}</h4>
-            <h4>{producto.price}</h4>
-            <button onClick={() => {
-                setCarrito(...carrito, productos)
-            }}>Agregar al carrito</button>
-        </div>
-)}) 
+        productos.map(producto => {
+            return (
+                <div key={producto.id}>
+                    <img src={producto.pictureUrl} alt={`Imagen de ${producto.title}`} />
+                    <h4>{producto.title}</h4>
+                    <h4>{producto.price}</h4>
+                    <button onClick={() => {
+                        setCarrito(...carrito, productos)
+                    }}>Agregar al carrito</button>
+                </div>
+            )
+        }))
 
 }
 
