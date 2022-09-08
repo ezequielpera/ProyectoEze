@@ -3,7 +3,8 @@
         "id": "0",
         "title": "Textos Hermeticos",
         "price": "2400",
-        "pictureUrl": "d:/eze-app/src/components/carrito/products/imgProducts/textos-hermeticos.jpg"
+        "pictureUrl": "/imgProducts/textos-hermeticos.jpg",
+        "detail" : "El hermetismo surgió en el Egipto de los Ptolomeos, del período helenistico. Se trata de un movimiento doctrinal, filosófico, esotérico y religioso que combina aspectos de los cultos egipcio y griego y tiene como figura central al dios Hermes, el mensajero de los dioses, al que invoca con el apelativo de Trismegisto, el tres veces grande. Este movimiento ejerció una profunda influencia en la filosofía grecorromana de comienzos de la era cristiana y entre los humanistas. El Corpus hermeticum consiste en una colección de textos sagrados, escritos en griego (en un inicio se afirmó que eran traducciones de textos egipcios), que contiene las principales creencias y doctrinas herméticas, concernientes a la divinidad, el origen del cosmos, la caída del hombre desde el Paraiso y las grandes cuestiones de Verdad, Bien y Belleza. La tradición atribuye la autoría del Corpus a Hermes Trismegisto, originariamente transfiguración del dios egipcio Thot, pero despues transformado en sabio. Esta edición ofrece una rigurosa traducción basada en los más firmes principios filológicos e historiográficos y una cuidada selección de los textos Corpus hermeticum."
     },
 
 
@@ -11,35 +12,35 @@
         "id": "1",
         "title": "El Templo en el Hombre",
         "price": "3000",
-        "pictureUrl": "./products/imgProducts/templo-en-el-hombre.jpg"
+        "pictureUrl": "/imgProducts/templo-en-el-hombre.jpg"
     },
 
     {
         "id": "2",
         "title": "El Señor de los Anillos",
         "price": "3200",
-        "pictureUrl": "d:/eze-app/src/components/carrito/products/imgProducts/señor-de-los-anillos.jpg"
+        "pictureUrl": "/imgProducts/señor-de-los-anillos.jpg"
     },
 
     {
         "id": "3",
         "title": "El Kybalion",
         "price": "2350",
-        "pictureUrl": "d:/eze-app/src/components/carrito/products/imgProducts/kybalion.jpg"
+        "pictureUrl": "/imgProducts/kybalion.jpg"
     },
 
     {
         "id": "4",
         "title": "La Rama Dorada",
         "price": "2500",
-        "pictureUrl": "d:/eze-app/src/components/carrito/products/imgProducts/rama-dorada.jpg"
+        "pictureUrl": "/imgProducts/rama-dorada.jpg"
     },
 
     {
         "id": "5",
         "title": "Los Vencejos",
         "price": "2100",
-        "pictureUrl": "d:/eze-app/src/components/carrito/products/imgProducts/los-vencejos.jpg"
+        "pictureUrl": "/imgProducts/los-vencejos.jpg"
     },
 
 
@@ -47,27 +48,27 @@
         "id": "6",
         "title": "El Grial y la Serpiente",
         "price": "3000",
-        "pictureUrl": "d:/eze-app/src/components/carrito/products/imgProducts/grial-y-la-serpiente.jpg"
+        "pictureUrl": "/imgProducts/grial-y-la-serpiente.jpg"
     },
 
     {
         "id": "7",
         "title": "Esclava de la Libertad",
         "price": "2700",
-        "pictureUrl": "d:/eze-app/src/components/carrito/products/imgProducts/esclava-libertad.jpg"
+        "pictureUrl": "/imgProducts/esclava-libertad.jpg"
     },
 
     {
         "id": "8",
         "title": "El Italiano",
         "price": "2700",
-        "pictureUrl": "d:/eze-app/src/components/carrito/products/imgProducts/el-italiano"
+        "pictureUrl": "/imgProducts/el-italiano.jpg"
     },
 
     {
         "id": "9",
         "title": "El Caso Alaska Sanders",
         "price": "2500",
-        "pictureUrl": "d:/eze-app/src/components/carrito/products/imgProducts/caso-alaska-sanders.jpg"
+        "pictureUrl": "/imgProducts/caso-alaska-sanders.jpg"
     }
 ]

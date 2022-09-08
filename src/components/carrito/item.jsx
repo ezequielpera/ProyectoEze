@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import './css/estilos.css';
 
 const Item = () => {
 
@@ -21,21 +22,25 @@ const Item = () => {
     }, [])
 
     return (
+        
         productos.map(producto => {
+            
             return (
-                <div key={producto.id}>
-                    <img src={producto.pictureUrl} alt={`Imagen de ${producto.title}`} />
-                    <h4>{producto.title}</h4>
-                    <h4>{producto.price}</h4>
-                    <button onClick={() => {
-                        setCarrito(...carrito, productos)
-                    }}>Agregar al carrito</button>
+
+                <div className="productsContainer" key={producto.id}>
+                    <div className="product">
+                        <img src={producto.pictureUrl} alt={`Imagen de ${producto.title}`} />
+                        <h4>{producto.title}</h4>
+                        <h4>${producto.price}</h4>
+                        <button onClick={() => {
+                            setCarrito(...carrito, productos)
+                        }}>Agregar al carrito</button>
+                    </div>
                 </div>
             )
         }))
 
+
 }
 
 export default Item;
-
-
