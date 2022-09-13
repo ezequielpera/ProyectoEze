@@ -1,42 +1,23 @@
-import { useEffect, useState } from "react";
+import { useParams, Link } from "react-router-dom";
 
-const ItemDetail = () => {
-    const [products, setProducts] = useState([]);
-
-
-    const SearchProducts = async () => {
-        try {
-            const response = await fetch(`/detail.json`);
-            const data = await response.json();
-            setProducts(data);
-        }
-        catch (err) {
-            console.log(err)
-        }
-        }
-        useEffect(() => {
-            SearchProducts();
-        }, [])
-
-        return (
-            products.map(product => {
-                
-                
+const ItemDetail = (products) => {
+    const {productsId} = useParams();
+    const {categoryId} = useParams();
                     return (
-                        <div className="productsContainer">
-                            <div className="product">
-                                <img src={product.pictureUrl} alt={`Imagen de ${product.title}`} />
-                                <h4>{product.title}</h4>
-                                <p>{product.detail}</p>
-                                <h4>${product.price}</h4>
+                        
+                        <Link to={`/producto/${products.id}`}>
+                        <div className="">
+                            <div className="">
+                                <img src={products.pictureUrl} alt={`Imagen de ${products.title}`} />
+                                <h4>{products.title}</h4>
+                                <p>{products.detail}</p>
+                                <h4>${products.price}</h4>
                                 <button >Agregar al carrito</button>
                             </div>
-                        </div>
+                        </div></Link>
                     )
                 }
             
-            ));
-    }
 
 
 export default ItemDetail;

@@ -4,7 +4,8 @@
         "title": "Textos Hermeticos",
         "price": "2400",
         "pictureUrl": "/imgProducts/textos-hermeticos.jpg",
-        "detail" : "El hermetismo surgió en el Egipto de los Ptolomeos, del período helenistico. Se trata de un movimiento doctrinal, filosófico, esotérico y religioso que combina aspectos de los cultos egipcio y griego y tiene como figura central al dios Hermes, el mensajero de los dioses, al que invoca con el apelativo de Trismegisto, el tres veces grande. Este movimiento ejerció una profunda influencia en la filosofía grecorromana de comienzos de la era cristiana y entre los humanistas. El Corpus hermeticum consiste en una colección de textos sagrados, escritos en griego (en un inicio se afirmó que eran traducciones de textos egipcios), que contiene las principales creencias y doctrinas herméticas, concernientes a la divinidad, el origen del cosmos, la caída del hombre desde el Paraiso y las grandes cuestiones de Verdad, Bien y Belleza. La tradición atribuye la autoría del Corpus a Hermes Trismegisto, originariamente transfiguración del dios egipcio Thot, pero despues transformado en sabio. Esta edición ofrece una rigurosa traducción basada en los más firmes principios filológicos e historiográficos y una cuidada selección de los textos Corpus hermeticum."
+        "detail" : "El hermetismo surgió en el Egipto de los Ptolomeos, del período helenistico. Se trata de un movimiento doctrinal, filosófico, esotérico y religioso que combina aspectos de los cultos egipcio y griego y tiene como figura central al dios Hermes, el mensajero de los dioses, al que invoca con el apelativo de Trismegisto, el tres veces grande. Este movimiento ejerció una profunda influencia en la filosofía grecorromana de comienzos de la era cristiana y entre los humanistas. El Corpus hermeticum consiste en una colección de textos sagrados, escritos en griego (en un inicio se afirmó que eran traducciones de textos egipcios), que contiene las principales creencias y doctrinas herméticas, concernientes a la divinidad, el origen del cosmos, la caída del hombre desde el Paraiso y las grandes cuestiones de Verdad, Bien y Belleza. La tradición atribuye la autoría del Corpus a Hermes Trismegisto, originariamente transfiguración del dios egipcio Thot, pero despues transformado en sabio. Esta edición ofrece una rigurosa traducción basada en los más firmes principios filológicos e historiográficos y una cuidada selección de los textos Corpus hermeticum.",
+        "category" : "Esoterismo"
     },
 
 
@@ -12,35 +13,45 @@
         "id": "1",
         "title": "El Templo en el Hombre",
         "price": "3000",
-        "pictureUrl": "/imgProducts/templo-en-el-hombre.jpg"
+        "pictureUrl": "/imgProducts/templo-en-el-hombre.jpg",
+        "detail" : "Este libro tiene como objeto el estudio del singular templo de Luxor, uno de los monumentos más hermosos de la antigua Tebas debido a su fascinante arquitectura, y a él Schwaller de Lubicz dedicó su obra más conocida. Efectivamente, El templo en el hombre, libro que aquí presentamos, es la obra cumbre de este hermetista y estudioso alsaciano. Verdadero Fulcanelli de la egiptología, Schwaller de Lubicz cuenta con una trayectoria tan extraña como fascinante dentro del mundo de la investigación de la cultura faraónica. Este libro es el resultado de casi quince años de investigación a pie de campo en el templo de Luxor. Publicado en el año 1949 de forma independiente, en poco tiempo se convirtió en un libro de culto, obligando su difusión a gran escala. El libro de Schwaller de Lubicz llama la atención sobre la lectura simbólica que debemos hacer en los monumentos egipcios. Lejos de ser simples edificios de piedra con una finalidad meramente práctica, el investigador alsaciano señala que los templos son entes vivos, y que como tales cuentan con una serie de estructuras 'orgánicas'.",
+        "category" : "Recomendados"
     },
 
     {
         "id": "2",
         "title": "El Señor de los Anillos",
         "price": "3200",
-        "pictureUrl": "/imgProducts/señor-de-los-anillos.jpg"
+        "pictureUrl": "/imgProducts/señor-de-los-anillos.jpg",
+        "detail" : "La obra cumbre de la fantasía épica en un solo volumen. Los Anillos de Poder fueron forjados en antiguos tiempos por los herreros Elfos, y Sauron, el Señor Oscuro, forjó el Anillo Único. Pero en una ocasión se lo quitaron, y aunque lo buscó por toda la Tierra Media nunca pudo encontrarlo. Al cabo de muchos años fue a caer casualmente en manos del hobbit Bilbo Bolsón. Sauron llegó a reunir todos los Grandes Anillos, pero continuaba buscando el Anillo Único que completaría el dominio de Mordor. Bilbo desapareció durante la celebración de su centesimodecimoprimer cumpleaños, y dejó a Frodo a cargo del Anillo, y con una peligrosa misión por delante: atravesar la Tierra Media, internarse en las sombras del País Oscuro y destruir el Anillo arrojándolo en las Grietas del Destino.",
+        "category" : "Ficción"
     },
 
     {
         "id": "3",
         "title": "El Kybalion",
         "price": "2350",
-        "pictureUrl": "/imgProducts/kybalion.jpg"
+        "pictureUrl": "/imgProducts/kybalion.jpg",
+        "detail" : "El Kybalion es el libro que contiene las claves maestras o leyes universales basadas en las enseñanzas del misterioso maestro Hermes Trismegisto. Su impacto es tan transcendental que hasta las doctrinas más antiguas de la India en la actualidad fueron influenciadas por estos principios herméticos o leyes de Hermes. La filosofía hermética fue resguardada por los estudiantes de Hermes desde la antigua Mesopotamia; quienes se vieron forzados a ocultar las enseñanzas de los principios universales sobre alquimia a causa de las persecuciones durante la edad media. El Kybalion fue escrito por Los Tres Iniciados y contiene los pilares básicos de la Alquimia Hermética; cuyo significado real es de la transmutación de las fuerzas mentales; es decir; ser capaz de realizar cambios a niveles de vibración mental. Estas enseñanzas que sentaron las bases fundamentales del conocimiento esotérico y fueron formuladas por Hermes; quien más tarde fue proclamado y reconocido como el Maestro de Maestros. Trismegisto significa tres veces grande y sus fieles seguidores lo adoraron como el origen de la sabiduría.",
+        "category" : "Esoterismo"
     },
 
     {
         "id": "4",
         "title": "La Rama Dorada",
         "price": "2500",
-        "pictureUrl": "/imgProducts/rama-dorada.jpg"
+        "pictureUrl": "/imgProducts/rama-dorada.jpg",
+        "detail" : "Esta nueva edición, compendiada enteramente a partir de los doce volúmenes de la primera publicación completa de la obra (1906-1915), restituye los pasajes censurados en el resumen de 1922 y en sus ediciones subsecuentes. Con esta nueva versión se ofrecen por primera vez al público hispanohablante las teorías más audaces de Frazer contextualizadas con un nuevo aparato crítico, introducción y notas.",
+        "category" : "Esoterismo"
     },
 
     {
         "id": "5",
         "title": "Los Vencejos",
         "price": "2100",
-        "pictureUrl": "/imgProducts/los-vencejos.jpg"
+        "pictureUrl": "/imgProducts/los-vencejos.jpg",
+        "detail" : "Toni, un profesor de instituto enfadado con el mundo, decide poner fin a su vida. Meticuloso y sereno, tiene elegida la fecha: dentro de un año. Hasta entonces cada noche redactará en el piso que comparte con su perra Pepa y una biblioteca de la que se va desprendiendo, una crónica personal, dura y descreída, pero no menos tierna y humorística. Con ella espera descubrir las razones de su radical decisión, desvelar hasta la última partícula de su intimidad, contar su pasado y los muchos asuntos cotidianos de una España políticamente convulsa. Aparecerán, diseccionados con implacable bisturí, sus padres, un hermano al que no soporta, su exmujer Amalia, de la que no logra desconectarse, y su problemático hijo Nikita; pero también su caústico amigo Patachula. Y una inesperada Agueda. Y en la sucesión de episodios amorosos y familiares de esta adictiva constelación humana, Toni, hombre desorientado empeñado en hacer recuento de sus ruinas, insufla, paradójicamente, una inolvidable lección de vida.",
+        "category" : "Ficción"
     },
 
 
@@ -48,27 +59,35 @@
         "id": "6",
         "title": "El Grial y la Serpiente",
         "price": "3000",
-        "pictureUrl": "/imgProducts/grial-y-la-serpiente.jpg"
+        "pictureUrl": "/imgProducts/grial-y-la-serpiente.jpg",
+        "detail" : "El libro que desvela el verdadero origen del Grial y que desmiente no sólo la creencia cristiana sino también las interpretaciones alternativas que ha popularizado El Código Da Vinci. El origen del Grial, y también del Elixir de la Eterna Juventud y de la Piedra FIlosofal, es mucho más antiguo que la pasión de Cristo. Proviene en realidad de un antiguo culto sumerio que se expandió hasta convertirse en una religión global y que se basaba en la adoración de la serpiente como deidad. En un rito tan antiguo como la civilización, los iniciados bebían la mezcla del veneno y la sangre de la serpiente de un cuenco que dio en llamarse Grial. Este elixir no solamente no mataba al que lo bebía, sino que curaba sus enfermedades y fortalecía de tal manera el sistema inmunológico que alargaba la vida. El brebaje cayó en descrédito en el siglo XIX por culpa del 'aceite de serpiente' que ofrecían los charlatanes, sin embargo, la medicina moderna ha probado las propiedades benéficas del veneno de serpiente en exitosos tratamientos de enfermedades humanas. ¿Se trata realmente del Elixir de la Eterna Juventud? El recipiente del que bebían los adeptos, ¿era el verdadero Santo Grial?",
+        "category" : "Recomendados"
     },
 
     {
         "id": "7",
         "title": "Esclava de la Libertad",
         "price": "2700",
-        "pictureUrl": "/imgProducts/esclava-libertad.jpg"
+        "pictureUrl": "/imgProducts/esclava-libertad.jpg",
+        "detail" : "Una historia fascinante que narra la apasionada lucha por la libertad de dos mujeres negras en épocas distintas: la Cuba esclavista colonial y la España del siglo XXI. Entre aquellos ingenios azucareros; donde imperaba la explotación más cruel; y la actual sociedad española; que aún no ha ajustado las cuentas con esa lacra del pasado; Ildefonso Falcones desarrolla esta epopeya intensa; ambiciosa y emotiva. En ella; el autor; referente indiscutible de la novela histórica en España; nos habla de dignidad; pasión; sacrificio y justicia a través de dos personajes inolvidables. Cuba; mediados del siglo XIX. A la isla caribeña arriba un barco portador de una siniestra carga. Más de setecientas mujeres y niñas secuestradas de su África natal llegan para trabajar; hasta la extenuación; en los campos de caña de azúcar y parir hijos que serán también esclavos. Kaweka es una de ellas; una muchacha que vivirá en primera persona el horror de la esclavitud en la hacienda del cruel marqués de Santadoma; pero que pronto demostrará a quienes la rodean que posee la facultad de comulgar con Yemayá. Esta es una diosa voluble que; en ocasiones; le concede el don de la curación y le proporciona la fuerza para liderar a sus hermanos de raza en la lucha por la libertad contra unos opresores que han logrado esclavizar sus cuerpos; pero no sus almas. Madrid; época actual. Lita; una joven mulata; es hija de Concepción; la mujer que lleva toda la vida sirviendo en casa de los marqueses de Santadoma; en pleno barrio de Salamanca; al igual que hicieron sus antepasadas en la Cuba colonial. A pesar de tener estudios y ambición profesional; la precariedad laboral obliga a Lita a recurrir a los todopoderosos señores de Santadoma en busca de una oportunidad en la banca propiedad del marqués. A medida que se sumerge en las finanzas de la empresa y en el pasado de esta riquísima familia; la joven descubre los orígenes de su fortuna y decide emprender una batalla legal en favor de la dignidad y la justicia; que merecen tanto su madre como todas las mujeres que entregaron sus vidas al servicio de unos blancos que nunca las trataron como a iguales.",
+        "category" : "Novelas"
     },
 
     {
         "id": "8",
         "title": "El Italiano",
         "price": "2700",
-        "pictureUrl": "/imgProducts/el-italiano.jpg"
+        "pictureUrl": "/imgProducts/el-italiano.jpg",
+        "detail" : "«Nada traiciona, tanto tiempo después, la mujer que desde hace dos años vive sola junto al mar con un perro y unos libros. Qué otra cosa, decide, sería el impulso,o el deseo, de permanecer abrazada a ese hombre para siempre. Ignora qué habrá en su cabeza dentro de un par de horas, cuando la claridad del día la despeje del todo e ilumine con más crudeza su conciencia. Lo cierto es que en este momento, sin duda alguna, desearía morir si él muriera.» El italiano relata una asombrosa historia de amor, mar y guerra. En los años 1942 y 1943, durante la Segunda Guerra Mundial, buzos de combate italianos hundieron o dañaron catorce barcos aliados en Gibraltar y la bahía de Algeciras. En esta novela, inspirada en hechos reales, sólo algunos personajes y situaciones son imaginarios. Elena Arbués, una librera de veintisiete años, encuentra una madrugada mientras pasea por la playa a uno de esos buzos, desvanecido entre la arena y el agua. Al socorrerlo, la joven ignora que esa determinación cambiará su vida y que el amor será sólo parte de una peligrosa aventura.",
+        "category" : "Novelas"
     },
 
     {
         "id": "9",
         "title": "El Caso Alaska Sanders",
         "price": "2500",
-        "pictureUrl": "/imgProducts/caso-alaska-sanders.jpg"
+        "pictureUrl": "/imgProducts/caso-alaska-sanders.jpg",
+        "detail" : "«Sé lo que has hecho». Este mensaje; encontrado en el bolsillo del pantalón de Alaska Sanders; cuyo cadáver apareció el 3 de abril de 1999 al borde del lago de Mount Pleasant; una pequeña localidad de New Hampshire; es la clave de la nueva y apasionante investigación que; once años después de poner entre rejas a sus presuntos culpables; vuelve a reunir al escritor Marcus Goldman y al sargento Perry Gahalowood. En esta ocasión contarán con la inestimable ayuda de una joven agente de policía; Lauren Donovan; empeñada en resolver la trama de secretos que se esconde tras el caso. A medida que vayan descubriendo quién era realmente Alaska Sanders; irán resurgiendo también los fantasmas del pasado y; entre ellos; especialmente el de Harry Quebert. La crítica dijo... «Una voz napoleónica que no escribe; boxea». Laura Fernández; El Cultural «Imposible parar de leer. [...] Caemos rendidos ante una aventura emocionante e impredecible». Le Parisien «Un tsunami de giros y pistas; un Himalaya de suspenso; un Everest de emociones». RTL «Exuberante; astuta y virtuosa». Pierre Vavasseur; Le Parisien «Una novela maravillosa que vuelve a sumergirnos en el universo de Harry Quebert. Una narración minuciosa y una atmósfera única». La Fringale Culturelle «Suspenso en cada línea: se lee de una sentada». Gilles Medioni; Marie France «Dicker domina a la perfección el arte del suspenso. [...] Con un estilo sencillo; eficaz y una narración impecable; te mantiene hechizado. ¡Se avecina un nuevo éxito!». A. M.; Version Femina",
+        "category" : "Novelas"
     }
 ]

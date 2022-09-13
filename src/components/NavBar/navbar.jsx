@@ -9,8 +9,8 @@ function NavBar() {
         <Navbar>
             <Container className="justify-content-lg-center">
                 <Navbar.Brand ><Link to ="/">Home</Link></Navbar.Brand>
-                <Navbar.Brand >Tienda</Navbar.Brand>
-                <Navbar.Brand >Infantil</Navbar.Brand>
+                <Navbar.Brand >Recomendados</Navbar.Brand>
+                <Navbar.Brand >Novelas</Navbar.Brand>
                 <Navbar.Brand >Ficción</Navbar.Brand>
                 <Navbar.Brand >Esoterismo</Navbar.Brand>
                 <CartWidget/>
