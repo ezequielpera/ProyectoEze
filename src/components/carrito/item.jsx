@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import ItemDetailContainer from "../container/itemdetailcontainer";
 import './css/estilos.css';
 
 const Item = () => {
@@ -33,8 +35,8 @@ const Item = () => {
                         <h4>{producto.title}</h4>
                         <h4>${producto.price}</h4>
                         <button onClick={() => {
-                            setCarrito(...carrito, productos)
-                        }}>Agregar al carrito</button>
+                            <Link to={`/products/${producto.id}`}/>
+                        }}>Ver Detalles</button>
                     </div>
                 </div>
             )
