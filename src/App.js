@@ -1,9 +1,9 @@
 import './App.css';
 
-import NavBar from './components/NavBar/navbar.jsx';
-import ItemListContainer from './components/container/itemlistcontainer.jsx';
+import NavBar from './components/NavBar/navBar.jsx';
+import ItemListContainer from './components/container/itemListContainer.jsx';
 import Hermes from './components/images/tituloHermes.jpg';
-import ItemDetailContainer from './components/container/itemdetailcontainer';
+import ItemDetailContainer from './components/container/itemDetailContainer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ItemDetail from './components/carrito/itemDetail';
 
@@ -17,10 +17,12 @@ const App = () => {
       <BrowserRouter>
       <NavBar />
         <Routes>
-          <Route path="/" element={<ItemListContainer />} />
-          <Route path="/producto/:productsId" element={<ItemDetail/>} />
-          <Route path="/categoria/:categoryId" element={<ItemDetail />} />
+          <Route path="/" exact element={<ItemListContainer />} />
+          <Route path="/producto/:productsId" exact element={<ItemDetailContainer/>} />
+          <Route path="/categoria/:categoryId" exact element={<ItemListContainer />} />
+          <Route path="/detalle/:productsId" exact element={<ItemDetailContainer />} />
         </Routes>
+        <ItemDetailContainer/>
       </BrowserRouter>
       
     </div>
