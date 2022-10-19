@@ -7,15 +7,11 @@ const ItemListContainer = () => {
 
     return (
         <div>
-            <ItemCount stock={6} initial={1} onAdd={Mostrar} />
-            
                 <div className="padreCards">
                     <ItemList />
                 </div>
-            
         </div>
     )
-
 }
 
 function Mostrar(a) {

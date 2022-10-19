@@ -1,15 +1,21 @@
 import { Link } from "react-router-dom";
 import ItemCount from "./itemCount";
 
-const ItemDetail = ({ products }) => {
+const ItemDetail = ({ product }) => {
     return (
-        <div className="" key={products.id}>
-            <div className="">
-                <img src={products.pictureUrl} alt={`Imagen de ${products.title}`} />
-                <h4>{products.title}</h4>
-                <p>{products.detail}</p>
-                <h4>${products.price}</h4>
-                <ItemCount />
+        <div key={product?.id}>
+            <div className="contDetalle">
+                <div className="divImagen">
+                    <img src={product?.pictureUrl} alt={`Imagen de ${product?.title}`} />
+                </div>
+                <div className="contInfo">
+                    <div className="divInfo">
+                        <h4>{product?.title}</h4>
+                        <p>{product?.detail}</p>
+                        <h4>${product?.price}</h4>
+                        <ItemCount stock={10} initial={1} />
+                    </div>
+                </div>
             </div>
         </div>
     )

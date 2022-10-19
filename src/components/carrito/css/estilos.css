@@ -8,11 +8,9 @@
 
 .productsContainer {
     display: flex;
-    
     margin: 10px;
     width: 40vh;
     height: 30vw;
-    
 }
 
 .product {
@@ -21,7 +19,8 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    border: 1px rgb(184, 184, 184) solid;
+    border: solid 3px rgb(92, 107, 245);
+    background-color: rgb(242, 244, 253);
     border-radius: 10px;
     padding: 4vh;
     margin: 6vh;
@@ -39,3 +38,45 @@
     border-radius: 5px;
     padding: 6px 11px;
 }
+.contDetalle {
+    display: flex;
+    margin-top: 150px;
+}
+
+.divImagen {
+    width: 80vw;
+    border: solid 3px rgb(92, 107, 245);
+    border-radius: 10px;
+    padding: 44px;
+    margin-left: 50px;
+    margin-right: 70px;
+    background-color: rgb(242, 244, 253);
+}
+
+.divImagen img {
+    width: 100%;
+}
+
+.divInfo {
+    width: 60%;
+    border: solid 3px rgb(92, 107, 245);
+    padding: 44px;
+    border-radius: 10px;
+    background-color: rgb(242, 244, 253);
+}
+
+.enlace {
+    color: black;
+    text-decoration: none;
+}
+
+.botonesCount {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    font-weight: 700;
+    border: solid 2px rgb(92, 107, 245);
+    text-decoration: none;
+}
+

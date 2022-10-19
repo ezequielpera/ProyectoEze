@@ -3,16 +3,15 @@ import {useState,useEffect} from "react";
 import { useParams } from "react-router-dom";
 
 const ItemDetailContainer = () => {
-    const [products, setProducts] = useState([]);
+    const [product, setProduct] = useState(null);
 
     const {productsId} = useParams();
-    const {categoryId} = useParams();
 
     const SearchProducts = async () => {
         try {
-            const response = await fetch(`/elements.json/`);
+            const response = await fetch(`/elements.json`);
             const data = await response.json();
-            setProducts(data);
+            setProduct(data[productsId]);
         }
         catch (err) {
             console.log(err)
@@ -24,7 +23,7 @@ const ItemDetailContainer = () => {
 
     return (
         <>
-            <ItemDetail products={products}/>
+            <ItemDetail product={product}/>
         </>
     )
 }

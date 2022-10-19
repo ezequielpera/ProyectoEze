@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 
 const ItemCount = ({ stock, initial, onAdd }) => {
     const [count, setCount] = useState(initial)
@@ -18,13 +18,15 @@ const ItemCount = ({ stock, initial, onAdd }) => {
     return (
         <div>
             <div className="d-flex justify-content-center">
-                <button onClick={Restar}>-</button>
-                <p>{count}</p>
-                <button onClick={Sumar}>+</button>
+                <button className="botonesCount" onClick={Restar}>-</button>
+                <div className="botonesCount">
+                    <p>{count}</p>
+                </div>
+                <button className="botonesCount" onClick={Sumar}>+</button>
             </div>
             <div>
                 <div className="d-flex justify-content-center">
-                    <button onClick={() => { onAdd(count) }}>Agregar al Carrito</button>
+                    <button className="botonesCount" onClick={() => { onAdd(count) }}>Agregar al Carrito</button>
                 </div>
             </div>
         </div>
